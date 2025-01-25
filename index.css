@@ -1,0 +1,27 @@
+/*Ingredients*/
+.ingredients li {
+	padding: 5px 0;
+}
+
+.ingredients span {
+	font-weight: bolder;
+}
+
+.ingredients small {
+	font-style: italic;
+	font-size: 15px;
+	display: block;
+}
+
+/*Instructions*/
+.instructions li {
+	
+}
+
+.instructions span {
+	font-weight: bold;
+}
+
+.instructions p {
+	margin-top: 0;
+}
