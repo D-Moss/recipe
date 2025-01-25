@@ -1,27 +1,84 @@
-/*Ingredients*/
-.ingredients li {
-	padding: 5px 0;
+* {
+	box-sizing: border-box;
 }
 
-.ingredients span {
+body {
+	margin: 0;
+	padding: 20px;
+}
+
+.main-content {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+span {
 	font-weight: bolder;
+}
+
+p {
+	margin-top: 0;
+}
+
+/*Intro*/
+.intro {
+	margin: 0 auto;
+	border-radius: 4px;
+	position: relative;
+	max-width: 800px;
+}
+
+.intro img {
+	vertical-align: middle;
+}
+
+.content {
+	padding: 20px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.content h1 {
+	text-align: center;
+}
+
+.content p {
+	line-height: 1.5;
+}
+
+/*Ingredients*/
+.ingredients {
+	background-color: wheat;
+	padding: 15px 30px;
+	border-radius: 4px;
 }
 
 .ingredients small {
 	font-style: italic;
 	font-size: 15px;
-	display: block;
 }
 
 /*Instructions*/
-.instructions li {
-	
+.instructions {
+	background-color: wheat;
+	padding: 15px 30px;
+	border-radius: 4px;
 }
 
-.instructions span {
-	font-weight: bold;
+/*Serve*/
+.serve {
+	background-color: wheat;
+	padding: 15px 30px;
+	border-radius: 4px;
 }
 
-.instructions p {
-	margin-top: 0;
+/*Improve*/
+.changes {
+	background-color: wheat;
+	padding: 15px 30px;
+	border-radius: 4px;
 }
