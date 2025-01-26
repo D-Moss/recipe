@@ -29,6 +29,7 @@ p {
 }
 
 .intro img {
+	border-radius: 7px;
 	vertical-align: middle;
 }
 
@@ -52,9 +53,10 @@ p {
 
 /*Ingredients*/
 .ingredients {
-	background-color: wheat;
+	background-color: #f9eac7;
 	padding: 15px 30px;
 	border-radius: 4px;
+	box-shadow: 0 10px 16px 0 rgba(141, 20, 0, 0.4), 0 12px 40px 0 rgba(141, 20, 0, 0.4);
 }
 
 .ingredients small {
@@ -64,21 +66,24 @@ p {
 
 /*Instructions*/
 .instructions {
-	background-color: wheat;
+	background-color: #f5dba3;
 	padding: 15px 30px;
 	border-radius: 4px;
+	box-shadow: 0 14px 20px 0 rgba(31, 78, 5, 0.4), 0 16px 44px 0 rgba(31, 78, 5, 0.4);
 }
 
 /*Serve*/
 .serve {
-	background-color: wheat;
+	background-color: #f9eac7;
 	padding: 15px 30px;
 	border-radius: 4px;
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
 }
 
 /*Improve*/
 .changes {
-	background-color: wheat;
+	background-color: #f5dba3;
 	padding: 15px 30px;
 	border-radius: 4px;
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
 }
